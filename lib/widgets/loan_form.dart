@@ -45,7 +45,7 @@ class _LoanFormState extends State<LoanForm> {
           _loanAmountResult = 0;
           _loanPeriodResult = 0;
           return;
-        }
+        } // s
 
         int tempAmount = int.parse(result['loanAmount'].toString());
         int tempPeriod = int.parse(result['loanPeriod'].toString());
